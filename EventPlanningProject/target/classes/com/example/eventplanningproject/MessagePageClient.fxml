@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<AnchorPane prefHeight="396" prefWidth="478" xmlns="http://javafx.com/javafx/11.0.14-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.eventplanningproject.MessegerClientController">
+
+
+    <children>
+        <ImageView fitHeight="396.0" fitWidth="478.0" pickOnBounds="true">
+            <image>
+                <Image url="@pics/white.jpg" />
+            </image>
+        </ImageView>
+        <Button fx:id="btn_send" layoutX="404" layoutY="338" style="-fx-background-color: #151B54;" text="Send" textFill="WHITE" />
+        <TextField fx:id="tf_message" layoutX="30" layoutY="338" prefHeight="26" prefWidth="361" />
+        <ScrollPane fx:id="ScrollPane_main" fitToWidth="true" layoutX="30" layoutY="70" prefHeight="256" prefWidth="418">
+
+            <content>
+                <VBox fx:id="VBOX_messages" prefHeight="248" prefWidth="412" />
+            </content>
+        </ScrollPane>
+        <Label layoutX="171.0" layoutY="25.0" text="imessage" textFill="#151b54">
+            <Font name="Arial Rounded MT Bold" size="23" />
+            <font>
+                <Font name="Khmer MN" size="30.0" />
+            </font>
+
+        </Label>
+
+
+    </children>
+
+</AnchorPane>

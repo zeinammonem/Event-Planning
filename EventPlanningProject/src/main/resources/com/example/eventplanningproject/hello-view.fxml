@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.eventplanningproject.HelloController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="777.0" layoutX="-7.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../../../Event%20Planning%20Project/welcomepage.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_login" layoutX="225.0" layoutY="339.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="98.0" style="-fx-background-color: #E3319D;" text="Login" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_signup" layoutX="449.0" layoutY="339.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #E3319D;" text="Sign-Up" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="lbl_hello" layoutX="251.0" layoutY="126.0" text="Hello" textFill="WHITE">
+         <font>
+            <Font name="Tahoma Bold" size="30.0" />
+         </font>
+      </Label>
+      <Text fx:id="t_description" fill="WHITE" layoutX="321.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="description">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

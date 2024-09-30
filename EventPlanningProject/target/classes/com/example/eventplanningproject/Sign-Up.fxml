@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.eventplanningproject.SignUpController">
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="385.0">
+         <children>
+            <ImageView fitHeight="500.0" fitWidth="393.0" layoutX="-8.0" pickOnBounds="true">
+               <image>
+                  <Image url="@pics/WhatsApp%20Image%202022-06-05%20at%209.06.49%20PM%20(1).jpeg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="500.0" prefWidth="385.0" style="-fx-background-color: #D5D6EA;">
+         <children>
+            <Label fx:id="lbl_email" layoutX="61.0" layoutY="148.0" text="Email" textFill="#151b54">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbl_password" layoutX="59.0" layoutY="250.0" text="Password" textFill="#151b54">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbl_phonenum" layoutX="61.0" layoutY="337.0" text="Phone Number" textFill="#151b54">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbl_username" layoutX="61.0" layoutY="52.0" text="Username" textFill="#151b54">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_username" layoutX="59.0" layoutY="101.0" prefHeight="26.0" prefWidth="268.0" promptText="Username" style="-fx-background-color: #FFFFFF;" />
+            <TextField fx:id="tf_email" layoutX="60.0" layoutY="197.0" prefHeight="26.0" prefWidth="268.0" promptText="Email" style="-fx-background-color: #FFFFFF;" />
+            <TextField fx:id="tf_phonenum" layoutX="59.0" layoutY="381.0" prefHeight="26.0" prefWidth="268.0" promptText="Phone Number" style="-fx-background-color: #FFFFFF;" />
+            <TextField fx:id="tf_password" layoutX="59.0" layoutY="294.0" prefHeight="26.0" prefWidth="268.0" promptText="Password" style="-fx-background-color: #FFFFFF;" />
+            <Button fx:id="btn_signup" layoutX="151.0" layoutY="439.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="85.0" style="-fx-background-color: #151b54;" text="Sign-Up" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

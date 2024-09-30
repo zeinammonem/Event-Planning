@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #D5D6EA;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.eventplanningproject.SceneChangeControl">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1000.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../pics/white.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="301.0" layoutY="636.0" mnemonicParsing="false" onAction="#CheckoutCatering" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #151B54;" text="Checkout" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="597.0" layoutY="636.0" mnemonicParsing="false" onAction="#sceneSwitchDecorOrCatering_Catering" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #151B54;" text="Back" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <TabPane layoutY="66.0" prefHeight="559.0" prefWidth="1000.0" style="-fx-background-color: #D5D6EA;" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab style="-fx-background-color: #E799A3;" text="Savory">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #D5D6EA;">
+                     <children>
+                        <ImageView fitHeight="181.0" fitWidth="249.0" layoutX="499.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/grills.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="766.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/pizza.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="214.0" fitWidth="182.0" layoutX="541.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/pasta.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="96.0" fitWidth="218.0" layoutX="290.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/sushi.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="157.0" fitWidth="189.0" layoutX="234.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/seafood.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="133.0" fitWidth="134.0" layoutX="811.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/sandwiches.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="205.0" fitWidth="145.0" layoutX="22.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/salad.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="207.0" fitWidth="232.0" layoutX="25.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/rice.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="107.0" fitWidth="180.0" layoutX="319.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true" style="-fx-effect: shadow;">
+                           <image>
+                              <Image url="@pics/pasteries.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="98.0" fitWidth="177.0" layoutX="789.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/friedchicken.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="63.0" layoutY="204.0" text="Rice  50 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="783.0" layoutY="488.0" text="Sandwiches 40 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="776.0" layoutY="304.0" text="Fried Chicken 30 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="783.0" layoutY="174.0" text="Pizza 70 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="236.0" layoutY="488.0" text="Seafood 100 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="541.0" layoutY="488.0" text="Grills 100 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="559.0" layoutY="230.0" text="Pasta 60 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="329.0" layoutY="151.0" text="pasteries 40" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="312.0" layoutY="280.0" text="Sushi 70 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="488.0" text="Salad 45 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="btn_rice" layoutX="141.0" layoutY="201.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_pastries" layoutX="416.0" layoutY="148.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_pasta" layoutX="641.0" layoutY="227.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_pizza" layoutX="866.0" layoutY="171.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_sandwiches" layoutX="903.0" layoutY="485.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_grills" layoutX="632.0" layoutY="485.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_seafood" layoutX="350.0" layoutY="485.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_salad" layoutX="104.0" layoutY="485.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_sushi" layoutX="389.0" layoutY="277.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_friedChicken" layoutX="914.0" layoutY="301.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab style="-fx-background-color: #79BAEC;" text="Desserts">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="223.0" prefWidth="239.0">
+                     <children>
+                        <ImageView fitHeight="152.0" fitWidth="234.0" layoutX="240.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/candies.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="140.0" fitWidth="212.0" layoutX="750.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/tarts.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="172.0" fitWidth="214.0" layoutX="551.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/cupcakes.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="151.0" fitWidth="221.0" layoutX="500.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/cookies.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="152.0" fitWidth="200.0" layoutX="325.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/icecream.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="242.0" fitWidth="199.0" layoutX="32.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/cake.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="207.0" fitWidth="232.0" layoutX="739.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/cheesecake.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="170.0" fitWidth="272.0" layoutX="32.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/chocolates.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="73.0" layoutY="205.0" text="Chocolates 70 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="773.0" layoutY="488.0" text="Tart 500 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="756.0" layoutY="220.0" text="Cheesecake 500 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="267.0" layoutY="488.0" text="Candies 600 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="524.0" layoutY="488.0" text="Cookies 30 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="334.0" layoutY="232.0" text="Ice Cream  40 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="553.0" layoutY="242.0" text="Cupcake 40 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="38.0" layoutY="488.0" text="Cake 1000 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="btn_chocolates" layoutX="196.0" layoutY="202.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_icecream" layoutX="449.0" layoutY="226.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_cupcake" layoutX="661.0" layoutY="238.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_cheesecake" layoutX="891.0" layoutY="213.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_cake" layoutX="138.0" layoutY="485.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_candies" layoutX="382.0" layoutY="485.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_cookies" layoutX="631.0" layoutY="485.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_tart" layoutX="861.0" layoutY="485.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab style="-fx-background-color: #997070;" text="Drinks">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="268.0" fitWidth="278.0" layoutX="664.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/coffee.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="219.0" fitWidth="169.0" layoutX="401.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/soda.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="164.0" fitWidth="271.0" layoutX="50.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/herbs.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="225.0" fitWidth="362.0" layoutX="50.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/cocktails.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="194.0" fitWidth="312.0" layoutX="630.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/alcohols.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="88.0" layoutY="274.0" text="Cocktail 65 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="692.0" layoutY="487.0" text="Alcohols 500 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="720.0" layoutY="262.0" text="Coffee 45 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="104.0" layoutY="486.0" text="Tea 30 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="401.0" layoutY="497.0" text="Soda 40 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="164.0" fitWidth="271.0" layoutX="391.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pics/freshjuice.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="416.0" layoutY="228.0" text="Fresh Juice 40 LE" textFill="#151b54">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="btn_cocktails" layoutX="190.0" layoutY="271.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_freshjuice" layoutX="536.0" layoutY="225.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="tn_coffee" layoutX="817.0" layoutY="258.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_tea" layoutX="180.0" layoutY="483.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_soda" layoutX="484.0" layoutY="494.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                        <TextField fx:id="btn_alcohols" layoutX="803.0" layoutY="483.0" prefHeight="13.0" prefWidth="60.0" text="0" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Button layoutX="424.0" layoutY="23.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="152.0" style="-fx-background-color: #151B54;" text="Your Options !" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

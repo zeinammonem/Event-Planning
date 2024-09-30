@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="770.0" style="-fx-background-color: #D5D6EA#D5D6EA;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.eventplanningproject.SceneChangeControl">
+   <ImageView fitHeight="470.0" fitWidth="353.0" layoutX="22.0" layoutY="15.0" pickOnBounds="true">
+      <image>
+         <Image url="@pics/WhatsApp%20Image%202022-06-06%20at%2012.51.24%20PM%20(1).jpeg" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="470.0" fitWidth="353.0" layoutX="396.0" layoutY="15.0" pickOnBounds="true">
+      <image>
+         <Image url="@pics/WhatsApp%20Image%202022-06-06%20at%2012.51.24%20PM.jpeg" />
+      </image>
+   </ImageView>
+
+
+    <Button fx:id="btn_decor" layoutX="121.0" layoutY="455.0" mnemonicParsing="false" onAction="#sceneSwitchtoDecor" prefHeight="30.0" prefWidth="155.0" style="-fx-background-color: #151B54;" text="Decor Page" textFill="WHITE">
+        <font>
+            <Font name="Tahoma Bold" size="12.0" />
+        </font>
+    </Button>
+   <Button fx:id="btn_catering" layoutX="495.0" layoutY="455.0" mnemonicParsing="false" onAction="#sceneSwitchtoCatering" prefHeight="30.0" prefWidth="155.0" style="-fx-background-color: #151B54;" text="Catering Page" textFill="WHITE">
+      <font>
+         <Font name="Tahoma Bold" size="12.0" />
+      </font>
+   </Button>
+   <Button layoutX="202.0" layoutY="15.0" mnemonicParsing="false" style="-fx-background-color: #151B54;" text="Choose your desired Event Planning option" textFill="WHITE">
+      <font>
+         <Font name="Tahoma" size="18.0" />
+      </font>
+   </Button>
+
+</AnchorPane>
